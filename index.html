@@ -15,7 +15,7 @@
         <p class="label">Квадрат</p>
         <div class="text-field">
           <label class="label text-field__label">Введите длинну сторон
-            <input class="text-field__text" id="rect1" type="number" options.other #{$options} pattern="^[ 0-9]+$">
+            <input class="text-field__text" id="rect1" type="number" options.other #{$options} min="1" pattern="^[ 0-9]+$">
           </label>
         </div>
         <p class="label" id="rectresult">Результат: </p>
@@ -71,7 +71,7 @@
         </div>
         <div class="text-field">
           <label class="label text-field__label">Введите высоту
-            <input class="text-field__text" id="trapecia3" options.other #{$options} pattern="^[ 0-9]+$">
+            <input class="text-field__text" id="trapecia3" type="number" options.other #{$options} pattern="^[ 0-9]+$">
           </label>
         </div>
         <p class="label" id="trapeciaresult">Результат: </p>
