@@ -1,0 +1,95 @@
+
+<!--include ../../blocks/input/input.pug--><!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <title>Калькулятор</title>
+  <link href="vendors~main.css" rel="stylesheet"><link href="main.css" rel="stylesheet"></head>
+  <body>
+    <header>
+      <p class="label">Рассчет площади фигур</p>
+    </header>
+    <article> 
+      <div class="rect">
+        <p class="label">Квадрат</p>
+        <div class="text-field">
+          <label class="label text-field__label">Введите длинну сторон
+            <input class="text-field__text" id="rect1" type="text" options.other #{$options} pattern="^[ 0-9]+$">
+          </label>
+        </div>
+        <p class="label" id="rectresult">Результат: </p>
+      </div>
+      <div class="circle">
+        <p class="label">Круг</p>
+        <div class="text-field">
+          <label class="label text-field__label">Введите радиус
+            <input class="text-field__text" id="circle1" type="text" options.other #{$options} pattern="^[ 0-9]+$">
+          </label>
+        </div>
+        <p class="label" id="circleresult">Результат: </p>
+      </div>
+      <div class="ellipse">
+        <p class="label">Эллипс</p>
+        <div class="text-field">
+          <label class="label text-field__label">Введите длинну большой полуоси
+            <input class="text-field__text" id="ellipse1" type="text" options.other #{$options} pattern="^[ 0-9]+$">
+          </label>
+        </div>
+        <div class="text-field">
+          <label class="label text-field__label">Введите длинну малой полуоси
+            <input class="text-field__text" id="ellipse2" type="text" options.other #{$options} pattern="^[ 0-9]+$">
+          </label>
+        </div>
+        <p class="label" id="ellipseresult">Результат: </p>
+      </div>
+      <div class="parallelogram">
+        <p class="label">Параллелограмм</p>
+        <div class="text-field">
+          <label class="label text-field__label">Введите основание
+            <input class="text-field__text" id="parallelogram1" type="text" options.other #{$options} pattern="^[ 0-9]+$">
+          </label>
+        </div>
+        <div class="text-field">
+          <label class="label text-field__label">Введите высоту
+            <input class="text-field__text" id="parallelogram2" type="text" options.other #{$options} pattern="^[ 0-9]+$">
+          </label>
+        </div>
+        <p class="label" id="parallelogramresult">Результат: </p>
+      </div>
+      <div class="trapecia">
+        <p class="label">Трапеция</p>
+        <div class="text-field">
+          <label class="label text-field__label">Введите основание (a)
+            <input class="text-field__text" id="trapecia1" type="text" options.other #{$options} pattern="^[ 0-9]+$">
+          </label>
+        </div>
+        <div class="text-field">
+          <label class="label text-field__label">Введите основание (b)
+            <input class="text-field__text" id="trapecia2" type="text" options.other #{$options} pattern="^[ 0-9]+$">
+          </label>
+        </div>
+        <div class="text-field">
+          <label class="label text-field__label">Введите высоту
+            <input class="text-field__text" id="trapecia3" type="text" options.other #{$options} pattern="^[ 0-9]+$">
+          </label>
+        </div>
+        <p class="label" id="trapeciaresult">Результат: </p>
+      </div>
+      <div class="triangle">
+        <p class="label">Треугольник</p>
+        <div class="text-field">
+          <label class="label text-field__label">Введите основание
+            <input class="text-field__text" id="triangle1" type="text" options.other #{$options} pattern="^[ 0-9]+$">
+          </label>
+        </div>
+        <div class="text-field">
+          <label class="label text-field__label">Введите высоту
+            <input class="text-field__text" id="triangle2" type="text" options.other #{$options} pattern="^[ 0-9]+$">
+          </label>
+        </div>
+        <p class="label" id="triangleresult">Результат: </p>
+      </div>
+    </article>
+  <script type="text/javascript" src="vendors~main.js"></script><script type="text/javascript" src="main.js"></script></body>
+</html>

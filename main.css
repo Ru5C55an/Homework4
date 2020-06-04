@@ -1,0 +1,154 @@
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/quicksand-v19-latin-regular.eot);
+  /* IE9 Compat Modes */
+  src: local(""), url(fonts/quicksand-v19-latin-regular.eot?#iefix) format("embedded-opentype"), url(fonts/quicksand-v19-latin-regular.woff2) format("woff2"), url(fonts/quicksand-v19-latin-regular.woff) format("woff"), url(fonts/quicksand-v19-latin-regular.ttf) format("truetype"), url(fonts/quicksand-v19-latin-regular.svg#Quicksand) format("svg");
+  /* Legacy iOS */ }
+
+/* quicksand-700 - latin */
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/quicksand-v20-latin-700.eot);
+  /* IE9 Compat Modes */
+  src: local(""), url(fonts/quicksand-v20-latin-700.eot?#iefix) format("embedded-opentype"), url(fonts/quicksand-v20-latin-700.woff2) format("woff2"), url(fonts/quicksand-v20-latin-700.woff) format("woff"), url(fonts/quicksand-v20-latin-700.ttf) format("truetype"), url(fonts/quicksand-v20-latin-700.svg#Quicksand) format("svg");
+  /* Legacy iOS */ }
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/montserrat-v14-latin-regular.eot);
+  /* IE9 Compat Modes */
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url(fonts/montserrat-v14-latin-regular.eot?#iefix) format("embedded-opentype"), url(fonts/montserrat-v14-latin-regular.woff2) format("woff2"), url(fonts/montserrat-v14-latin-regular.woff) format("woff"), url(fonts/montserrat-v14-latin-regular.ttf) format("truetype"), url(fonts/montserrat-v14-latin-regular.svg#Montserrat) format("svg");
+  /* Legacy iOS */ }
+
+/* montserrat-700 - latin */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/montserrat-v14-latin-700.eot);
+  /* IE9 Compat Modes */
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url(fonts/montserrat-v14-latin-700.eot?#iefix) format("embedded-opentype"), url(fonts/montserrat-v14-latin-700.woff2) format("woff2"), url(fonts/montserrat-v14-latin-700.woff) format("woff"), url(fonts/montserrat-v14-latin-700.ttf) format("truetype"), url(fonts/montserrat-v14-latin-700.svg#Montserrat) format("svg");
+  /* Legacy iOS */ }
+
+/* montserrat-regular - cyrillic */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/montserrat-v14-cyrillic-regular.eot);
+  /* IE9 Compat Modes */
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url(fonts/montserrat-v14-cyrillic-regular.eot?#iefix) format("embedded-opentype"), url(fonts/montserrat-v14-cyrillic-regular.woff2) format("woff2"), url(fonts/montserrat-v14-cyrillic-regular.woff) format("woff"), url(fonts/montserrat-v14-cyrillic-regular.ttf) format("truetype"), url(fonts/montserrat-v14-cyrillic-regular.svg#Montserrat) format("svg");
+  /* Legacy iOS */ }
+
+/* montserrat-700 - cyrillic */
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/montserrat-v14-cyrillic-700.eot);
+  /* IE9 Compat Modes */
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url(fonts/montserrat-v14-cyrillic-700.eot?#iefix) format("embedded-opentype"), url(fonts/montserrat-v14-cyrillic-700.woff2) format("woff2"), url(fonts/montserrat-v14-cyrillic-700.woff) format("woff"), url(fonts/montserrat-v14-cyrillic-700.ttf) format("truetype"), url(fonts/montserrat-v14-cyrillic-700.svg#Montserrat) format("svg");
+  /* Legacy iOS */ }
+
+/* open-sans-regular - latin_cyrillic */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/open-sans-v17-latin_cyrillic-regular.eot);
+  /* IE9 Compat Modes */
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(fonts/open-sans-v17-latin_cyrillic-regular.eot?#iefix) format("embedded-opentype"), url(fonts/open-sans-v17-latin_cyrillic-regular.woff2) format("woff2"), url(fonts/open-sans-v17-latin_cyrillic-regular.woff) format("woff"), url(fonts/open-sans-v17-latin_cyrillic-regular.ttf) format("truetype"), url(fonts/open-sans-v17-latin_cyrillic-regular.svg#OpenSans) format("svg");
+  /* Legacy iOS */ }
+
+/* open-sans-700 - latin_cyrillic */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/open-sans-v17-latin_cyrillic-700.eot);
+  /* IE9 Compat Modes */
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(fonts/open-sans-v17-latin_cyrillic-700.eot?#iefix) format("embedded-opentype"), url(fonts/open-sans-v17-latin_cyrillic-700.woff2) format("woff2"), url(fonts/open-sans-v17-latin_cyrillic-700.woff) format("woff"), url(fonts/open-sans-v17-latin_cyrillic-700.ttf) format("truetype"), url(fonts/open-sans-v17-latin_cyrillic-700.svg#OpenSans) format("svg");
+  /* Legacy iOS */ }
+
+.label {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #1f2041; }
+
+.text-field__label {
+  margin-bottom: 5px;
+  display: block; }
+
+.text-field__text {
+  display: block;
+  width: 320px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  color: rgba(31, 32, 65, 0.75);
+  padding: 15px 13px; }
+  .text-field__text:hover, .text-field__text:focus {
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    border: 1px solid rgba(31, 32, 65, 0.5); }
+  .text-field__text::placeholder {
+    color: rgba(31, 32, 65, 0.25); }
+
+np html,
+body {
+  height: 100%;
+  background-color: #202020; }
+
+header {
+  display: flex;
+  justify-content: center; }
+  header .label {
+    color: #ffffff;
+    font-size: large; }
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 25px;
+  justify-content: space-evenly; }
+
+.rect .label {
+  color: red; }
+
+.circle .label {
+  color: orange; }
+
+.ellipse .label {
+  color: yellow; }
+
+.parallelogram .label {
+  color: green; }
+
+.trapecia .label {
+  color: #6666ff; }
+
+.triangle .label {
+  color: #b300b3; }
+
+
+/*# sourceMappingURL=main.css.map*/
